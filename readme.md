@@ -8,17 +8,17 @@
 
 直接下载对应的jar包，DecoderProGodzilla.jar ， 或者把源码clone下来去打下包就行，其次就是getdata.py和jar放在同一个目录下，对是的，我懒嫌麻烦，就没用java去处理excel文件，而是拿py去做的。其中excel文件是通过ids相关设备导出的日志，提取魔改哥斯拉通信流量，生成对应的excel文件，对excel只有一个要求：导出流量里面对应请求体所在的列名为“数据(data)” 即可：
 
-![image-20220702121526775](\readme.assets\image-20220702121526775.png)
+![image-20220702121526775](readme.assets/image-20220702121526775.png)
 
 准备好对应的文件之后，运行实例如下：
 
-![image-20220702121217820](\readme.assets\image-20220702121217820.png)
+![image-20220702121217820](readme.assets/image-20220702121217820.png)
 
-![image-20220702121304654](\readme.assets\image-20220702121304654.png)
+![image-20220702121304654](readme.assets/image-20220702121304654.png)
 
 查看result解码结果：可以清楚的看到攻击者利用该webshell做了什么，从而开展追踪溯源工作
 
-![image-20220702121636339](\readme.assets\image-20220702121636339.png)
+![image-20220702121636339](readme.assets/image-20220702121636339.png)
 
 ## 三、解码原理以及遇到的问题
 
