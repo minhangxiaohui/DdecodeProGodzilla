@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DecoderProGodzilla">
+    <output-path>$PROJECT_DIR$/out/artifacts/DecoderProGodzilla</output-path>
+    <root id="archive" name="DecoderProGodzilla.jar">
+      <element id="module-output" name="Decodeprogodzilla" />
+    </root>
+  </artifact>
+</component>
