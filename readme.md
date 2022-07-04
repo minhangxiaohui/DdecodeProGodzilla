@@ -7,7 +7,7 @@
 
 ## 二、交互流量解码：
 
-直接下载对应的jar包，DecoderProGodzilla.jar ， 或者把源码clone下来去打下包就行，其次就是getdata.py和jar放在同一个目录下，对是的，我懒嫌麻烦，就没用java去处理excel文件，而是拿py去做的。其中excel文件是通过ids相关设备导出的日志，提取魔改哥斯拉通信流量，生成对应的excel文件，对excel只有一个要求：导出流量里面对应请求体所在的列名为“数据(data)” 即可：
+直接下载对应的jar包，DecoderProGodzilla.jar ， 或者把源码clone下来去打下包就行，其次就是getdata.py和jar放在同一个目录下，对是的，我懒嫌麻烦，就没用java去处理excel文件，而是拿py去做的，所以这里本地的python记得导入openpyxl依赖。其中excel文件是通过ids相关设备导出的日志，提取魔改哥斯拉通信流量，生成对应的excel文件，对excel只有一个要求：导出流量里面对应请求体所在的列名为“数据(data)” 即可：
 ![image](https://user-images.githubusercontent.com/39674723/176987695-d94bcf99-8552-48ab-a454-40dd71c37931.png)
 
 准备好对应的文件之后，运行实例如下：
